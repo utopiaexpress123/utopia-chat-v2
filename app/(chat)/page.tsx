@@ -19,7 +19,7 @@ export default function Chat() {
       <form onSubmit={handleSubmit}>
         <input
           value={input}
-          placeholder="Say something..."
+          placeholder="Write here..."
           onChange={handleInputChange}
         />
       </form>
